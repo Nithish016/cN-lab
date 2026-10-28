@@ -6,9 +6,7 @@
 
 **Course:** Computer Networks Laboratory  
 **Degree:** Bachelor of Technology (B.Tech) — Information Technology  
-**Student Name / Developer:** Gubba Nithish  
-**GitHub Profile:** [@Nithish016](https://github.com/Nithish016)  
-**Project Repository:** [https://github.com/Nithish016/cN-lab](https://github.com/Nithish016/cN-lab)  
+**Developer:** Gubba Nithish  
 **Platform:** Windows 10 / Windows 11  
 **Development Language:** C (Standard C99/C11)  
 **Networking Framework:** Microsoft Windows Sockets 2 (Winsock 2 — `Ws2_32.lib`)  

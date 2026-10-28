@@ -296,13 +296,9 @@ Developed for Academic and Laboratory Educational Purposes in Computer Networks 
 
 ---
 
-## 👨‍💻 Developer & Author
+## 👨‍💻 Developer
 
-- **Name:** Gubba Nithish
-- **GitHub:** [@Nithish016](https://github.com/Nithish016)
-- **Email:** [gubbanithish9@gmail.com](mailto:gubbanithish9@gmail.com)
-- **Program:** B.Tech — Information Technology
-- **Course:** Computer Networks Laboratory Project
+**Gubba Nithish**
 
 ---
 *Developed natively for Windows using C and Winsock 2 (`ws2_32.lib`).*
