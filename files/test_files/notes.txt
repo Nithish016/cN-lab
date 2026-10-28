@@ -1,0 +1,16 @@
+COMPUTER NETWORKS LAB NOTES - TCP THREE-WAY HANDSHAKE:
+-------------------------------------------------------
+1. SYN (Synchronize):
+   The client initiates the connection by transmitting a TCP segment with the SYN flag
+   set and an Initial Sequence Number (ISN_c).
+   Winsock API invocation: connect()
+
+2. SYN + ACK (Synchronize & Acknowledgment):
+   The server responds with its own SYN flag, an Initial Sequence Number (ISN_s),
+   and an ACK containing (ISN_c + 1).
+   Winsock API invocation: accept() returns newly established connection socket.
+
+3. ACK (Acknowledgment):
+   The client acknowledges by transmitting an ACK containing (ISN_s + 1).
+   The connection enters the ESTABLISHED state. Both endpoints can now exchange full-duplex data.
+   Winsock API invocations: send() and recv()

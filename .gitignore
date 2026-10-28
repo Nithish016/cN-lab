@@ -1,0 +1,19 @@
+# Compiled Object and Binary Files
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# Runtime Logs (Keep clean repository)
+*.log
+!server/server.log.example
+
+# Temporary test logs
+demo_server_run.log
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

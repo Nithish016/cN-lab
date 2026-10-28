@@ -1,0 +1,15 @@
+================================================================================
+COMPUTER NETWORKS LABORATORY - SAMPLE TEST FILE
+Topic: Multi-Client Chat Application with TCP Sockets in C (Windows Winsock 2)
+================================================================================
+
+Hello from the sender client!
+This file was transferred across a TCP connection using custom framed packets:
+- Protocol: TCP (Transmission Control Protocol)
+- Layer: Transport Layer (OSI Layer 4)
+- Port: Configurable (Default 8080)
+- Chunking: 4096 bytes per packet chunk
+- Integrity: Reliable byte stream with flow control and sequence acknowledgment.
+
+Winsock 2 Windows Socket API demonstration for lab viva.
+Success!

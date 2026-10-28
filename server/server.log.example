@@ -1,0 +1,13 @@
+[2026-10-28 19:51:33] [SYS]   Starting Multi-Client TCP Chat Server on Port 8888...
+[2026-10-28 19:51:33] [SYS]   Server listening successfully. Ready for client connections.
+[2026-10-28 19:51:33] [+]     Client connected : Nithish [127.0.0.1:61146]
+[2026-10-28 19:51:33] [+]     Client connected : Rahul [127.0.0.1:61147]
+[2026-10-28 19:51:34] [MSG]   Nithish -> ALL : Hello everyone! Welcome to Computer Networks Lab.
+[2026-10-28 19:51:34] [MSG]   Rahul -> ALL : Hi Nithish! Great to be connected via TCP sockets.
+[2026-10-28 19:51:34] [MSG]   Nithish -> Rahul : Let's review the viva questions before the lab exam.
+[2026-10-28 19:51:34] [FILE]  Transfer initiating: 'sample.txt' (710 bytes) from Nithish to Rahul
+[2026-10-28 19:51:34] [FILE]  Transfer complete: 'sample.txt' from Nithish to Rahul
+[2026-10-28 19:51:34] [-]     Rahul initiated graceful disconnect
+[2026-10-28 19:51:34] [-]     Nithish initiated graceful disconnect
+[2026-10-28 19:51:34] [-]     Client disconnected : Rahul
+[2026-10-28 19:51:34] [-]     Client disconnected : Nithish

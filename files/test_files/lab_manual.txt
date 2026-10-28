@@ -1,0 +1,36 @@
+================================================================================
+LAB MANUAL: EXPERIMENT - MULTI-CLIENT TCP CHAT APPLICATION USING WINSOCK 2 (C)
+================================================================================
+
+AIM:
+To design, implement, and analyze a multi-threaded TCP Client-Server chat application
+in C on Windows using the Winsock 2 API, demonstrating reliable stream delivery,
+client synchronization, private messaging, and file transfer.
+
+THEORY:
+Sockets provide an interface between the application layer and the transport layer.
+TCP offers a connection-oriented, reliable, stream-based transport service.
+Because TCP is stream-oriented, message framing using headers is necessary to
+prevent message coalescing or fragmentation issues.
+
+ALGORITHM:
+Server:
+  1. Call WSAStartup() to load Winsock DLL.
+  2. Create listening socket with socket(AF_INET, SOCK_STREAM, IPPROTO_TCP).
+  3. Bind socket to local IP and designated port via bind().
+  4. Place socket in passive listening state with listen().
+  5. In an accept() loop, accept incoming client TCP connections.
+  6. For each client, launch a dedicated thread via _beginthreadex().
+  7. Protect shared client tables using Windows CRITICAL_SECTION.
+  8. Handle message dispatching, routing, online presence, and file forwarding.
+  9. Log all operations to console and server.log.
+
+Client:
+  1. Call WSAStartup().
+  2. Prompt user for IP, Port, and Username.
+  3. Connect to server via connect().
+  4. Exchange registration handshake packet.
+  5. Launch asynchronous background receiver thread.
+  6. Read console input, dispatch commands (/users, /msg, /all, /sendfile, /help, /quit).
+  7. On exit, send disconnect packet, close socket, and call WSACleanup().
+================================================================================
